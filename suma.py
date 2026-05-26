@@ -1,6 +1,8 @@
-numero1 = int(input("Escribe el primer número: "))
-numero2 = int(input("Escribe el segundo número: "))
+try:
+    numero1 = int(input("Escribe el primer número: "))
+    numero2 = int(input("Escribe el segundo número: "))
 
-resultado = numero1 + numero2
+    print("Resultado:", numero1 + numero2)
 
-print("El resultado es:", resultado)
+except:
+    print("digito incorrecto")
